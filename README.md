@@ -135,7 +135,8 @@ If you are change any configuration after your reflector has been compiled, be s
 
 XLX Server requires the following ports to be open and forwarded properly for in- and outgoing network traffic:
 
-- TCP port 80            (http) optional TCP port 443 (https)
+- TCP port 80            (http)
+- TCP port 443           (https)
 - UDP port 10002         (XLX interlink)
 - UDP port 42000         (YSF protocol)
 - UDP port 30001         (DExtra protocol)
@@ -144,8 +145,8 @@ XLX Server requires the following ports to be open and forwarded properly for in
 - UDP port 8880          (DMR+ DMO mode)
 - UDP port 62030         (MMDVM protocol)
 - UDP port 10100         (AMBE controller port)
-- UDP port 10101 - 10199 (AMBE transcoding port) # only needed if your transcoder and reflector aren't running on the same domain.
-- UDP port 12345 - 12346 (Icom Terminal presence and request port)
+- UDP port 10101-10199   (AMBE transcoding port) # only needed if your transcoder and reflector aren't running on the same domain.
+- UDP port 12345-12346   (Icom Terminal presence and request port)
 - UDP port 40000         (Icom Terminal dv port)
 
 ## YSF Master Server
